@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM node:18-alpine
 
 ENV NODE_PATH /install/node_modules/
 ENV PATH /install/node_modules/.bin:$PATH
